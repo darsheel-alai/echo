@@ -1,9 +1,9 @@
 const Page = () => {
     return ( 
         <div>
-            Test page!
+            Only auth and org can see me!!
         </div>
-     );
+    );
 }
  
 export default Page;
