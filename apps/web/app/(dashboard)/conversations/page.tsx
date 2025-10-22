@@ -1,7 +1,7 @@
 const Page = () => {
-    return ( 
+    return (
         <div>
-            Only auth and org can see me!!
+            Conversations
         </div>
     );
 }
