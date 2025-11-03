@@ -40,6 +40,16 @@ const customerSupportItems = [
     },
 ];
 
+const VoiceAssistantIcon = () => (
+    <Image
+        src="/vapi.jpg"
+        alt="Voice Assistant"
+        width={16}
+        height={16}
+        className="rounded-sm object-cover"
+    />
+);
+
 const configurationItems = [
     {
         title: "Widget Customization",
@@ -54,7 +64,7 @@ const configurationItems = [
     {
         title: "Voice Assistant",
         url: "/plugins/vapi",
-        icon: Mic,
+        icon: VoiceAssistantIcon,
     },
 ];
 
